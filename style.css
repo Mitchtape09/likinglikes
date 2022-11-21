@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.nav-bar {
+    text-align: center;
+    margin: auto;
+margin: 0px 400px 20px 400px;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.my-avatar {
+    border: 3px solid black;
+    width: 350px;
+    height: 500px;
+    text-align: center;
+}
+.user-circle {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.user-info a,
+.user-info h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+.post {
+    width: 725px;
+    height: 250px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+.names-likes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.names-info {
+    margin: 30px 0px 0px 10px;
+}
+.like-btn {
+    background-color: goldenrod;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 2px 2px 3px black;
+}
+p {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0px 10px 0px 10px;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px
+}
